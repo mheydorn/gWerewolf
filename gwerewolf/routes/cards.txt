@@ -1,0 +1,26 @@
+cf0 6. Gadianton Leader  (Father Werewolf) - when the gadianton robbers (including the leader) have decided to kill someone the gadianton leader is woken right after by themselves and asked if they want to turn the person into a gadianton robber instead. Only get to do this once.\par
+7. Gadianton Leader (Werewolf) - Every night decide on someone to die. At least two every time. \par
+8. Gadianton Spy (Little Girl - bad side) - can peak during the night and are on the gadianton robber's side. Get peak during the Nephite Judges. \par
+9. Nephite Spy (Little Girl - good side) - can peak during the night and are on the nephite's side. She can only peak while the gadianton robbers are awake. \par
+10. Missionary (change name and images) - can turn a Gadianton Robber or Leader into a Nephite. - Act as a fox but when they feel they have narrowed it down they can turn someone the werewolf they found to a nephite. (may be too powerful and may need to drop this role and put the fox somewhere else on the good side).\par
+11. Missionary Leader (Cupid) - Wake up the first night and decide on two missionary companions who will die when the other one dies. \par
+12. Nephite (Villager) \par
+13. Traitor - Choose to be a Gadian Robber or a nephite judge at the beginning. Wake up for the Werewolfs and the nephite judges and can opt at any time to switch from one to the other (but only one time). Have an individual time they wake up and are asked if they want to keep their role. Once they have switched they don't wake up individually anymore. Gets to act fully in what ever role they are in. \par
+14. Prophet - At any time can opt to find out who one of the gadianton robbers are. It is determined by the narrator using a rand function provided on their form. They only get to know one gadianton robber in the entire game. \par
+angel - <img src="gImages/angel.jpg" alt="angel" style="width:280px;height:450px;">
+assassin - <img src="gImages/assassin.jpg" alt="angel" style="width:280px;height:450px;">
+nephiteSpy - <img src="gImages/nephiteSpy.jpg" alt="npehiteSpy" style="width:280px;height:450px;">
+gadiantonLeader - <img src="gImages/gadiantonLeader.jpg" alt="gadiantonLeader" style="width:280px;height:450px;">
+gadiantonRobber - <img src="gImages/gadiantonRobber.jpg" alt="gadiantonRobber" style="width:280px;height:450px;">
+traitor - <img src="gImages/traitor.jpg" alt="traitor" style="width:280px;height:450px;">
+nephiteJudge - <img src="gImages/nephiteJudge.jpg" alt="nephiteJudge" style="width:280px;height:450px;">
+cheifJudge - <img src="gImages/cheifJudge.jpg" alt="cheifJudge" style="width:180px;height:350px;">
+nephite - <img src="gImages/nephite.jpg" alt="nephite" style="width:280px;height:450px;">
+executioner - <img src="gImages/executioner.jpg" alt="exuecutioner" style="width:280px;height:450px;">
+prophet - <img src="gImages/prophet.jpg" alt="prophet" style="width:280px;height:450px;">
+missionaryLeader - <img src="gImages/missionaryLeader.jpg" alt="missionaryLeader" style="width:280px;height:450px;">
+dead - <img src="gImages/dead.jpg" alt="dead" style="width:280px;height:450px;">
+memberMissionary - <img src="gImages/memberMissionary.jpg" alt="memberMissinoary" style="width:280px;height:450px;">
+gadiantonSpy - <img src="gImages/gadiantonSpy.jpg" alt="gadiantonSpy" style="width:280px;height:450px;">
+apostate - <img src="gImages/apostate.jpg" alt="apostate" style="width:280px;height:450px;">
+

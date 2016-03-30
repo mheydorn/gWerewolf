@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
+<style>
+.hide {
+  display: none;
+}
+</style>
+
+<body>
+  <button id="getRoles">Get Roles</button>
+  <button id="sleep">Night</button>
+  <table style="width:100%">
+	<tr>
+	  <td>Role</td>
+	  <td>Name</td>
+	  <td>Living Status</td>
+	  <td>Action</td>
+	</tr>
+  </table>
+
+  <div ng-repeat="player in characters">
+	{{player.role}}		{{player.name}}		{{player.status}}
+	<form action="character.js">
+	  <select name="status">
+	    <option value="live">Live</option>
+	    <option value="die">Die</option>
+	  </select>
+	  <input type="awake">
+	</form>
+  </div>
+  
+  <br></br>
+  
+  <header>Guess for the Name of the Chief Judge</header> 
+  <form>
+	  <input type="guess">
+  </form>
+  
+  <br></br>
+  
+  <button id="endGame">End Game</button>
+  
+  <br></br>
+
+  <header>Player Description</header> 
+
+	<form name="playerDescription">
+		<p><select NAME="pageSelect" SIZE="1" onChange="selectPlayerDescription(this.form.pageSelect)">
+		<option VALUE="none" SELECTED>SELECT A PLAYER DESCRIPTION</option>
+		<option VALUE="players/angel.html">Angel</option>
+		<option VALUE="players/apostate.html">Apostate</option>
+		<option VALUE="players/assassin.html">Assassin</option>
+		<option VALUE="players/cheifJudge.html">Chief Judge</option>
+		<option VALUE="players/executioner.html">Executioner"</option>
+		<option VALUE="players/gadiantonLeader.html">Gadianton Leader</option>
+		<option VALUE="players/gadiantonRobber.html">Gadianton_Robber</option>
+		<option VALUE="players/gadiantonSpy.html">Gadianton Spy</option>
+		<option VALUE="players/missionary.html">Missionary</option>
+		<option VALUE="players/missionaryLeader.html">Missionary Leader</option>
+		<option VALUE="players/nephite.html">Nephite</option>
+		<option VALUE="players/nephiteJudge.html">Nephite Judge</option>
+		<option VALUE="players/nephiteSpy.html">Nephite Spy</option>
+		<option VALUE="players/prophet.html">Prophet</option>
+		<option VALUE="players/seer.html">Seer</option>
+		<option VALUE="players/traitor.html">Traitor</option>
+
+	</select> </p>
+	<p><!-- end of code in the body - stop copying body code here --> <!--------------------------------------------------------------------------> <!--webbot bot="HTMLMarkup" startspan --><IFRAME NAME="iframe2" SRC="players/blank.html" ALIGN="top" HEIGHT="100%" WIDTH="95%" HSPACE="10" VSPACE="10" align="middle"><!--webbot bot="HTMLMarkup" endspan --><!--webbot
+	bot="HTMLMarkup" startspan --><!--webbot bot="HTMLMarkup" endspan --> If you can see
+	this, your browser does not support iframes!<!--webbot bot="HTMLMarkup" startspan --></IFRAME><!--webbot
+	bot="HTMLMarkup" endspan --></p>
+	</form>
+	
+	<script language="JAVASCRIPT">
+		<!--//
+		function selectPlayerDescription(mySelect)
+		{
+		PageIndex2=mySelect.selectedIndex;
+		{
+		if 
+		(
+		mySelect.options[PageIndex2].value != "none"
+		)
+		{
+		frames['iframe2'].location.href = mySelect.options[PageIndex2].value;
+		}
+
+		}
+		}
+		//-->
+	</script>
+
+</body>
+
+</html>

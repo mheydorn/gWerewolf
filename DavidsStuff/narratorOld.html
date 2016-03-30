@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
+<style>
+.hide {
+  display: none;
+}
+</style>
+
+<body>
+  <button id="getRoles">Get Roles</button>
+  <button id="sleep">Night</button>
+  <table style="width:100%">
+	<tr>
+	  <td>Role</td>
+	  <td>Name</td>
+	  <td>Living Status</td>
+	  <td>Action</td>
+	</tr>
+  </table>
+
+  <div ng-repeat="player in characters">
+	{{player.role}}		{{player.name}}		{{player.status}}
+	<form action="character.js">
+	  <select name="status">
+	    <option value="live">Live</option>
+	    <option value="die">Die</option>
+	  </select>
+	  <input type="awake">
+	</form>
+  </div>
+  
+  <br></br>
+  
+  <header>Guess for the Name of the Chief Judge</header> 
+  <form>
+	  <input type="guess">
+  </form>
+  
+  <br></br>
+  
+  <button id="endGame">End Game</button>
+  
+  <br></br>
+
+  <header>Player Description</header> 
+	<select id="selectMe">
+	  <option value="Angel">Angel</option>
+	  <option value="Apostate">Apostate</option>
+	  <option value="Assassin">Assassin</option>
+	  <option value="Nephite_Judge">Nephite Judge</option>
+	  <option value="Executioner">Executioner</option>
+	  <option value="Gadianton_Leader">Gadianton Leader</option>
+	  <option value="Gadianton_Robber">Gadianton Robber</option>
+	  <option value="Gadianton_Spy">Gadianton Spy</option>
+	  <option value="Nephite_Spy">Nephite Spy</option>
+	  <option value="Member_Missionary">Member Missionary</option>
+	  <option value="Nephite">Nephite</option>
+	  <option value="Traitor">Traitor</option>
+	  <option value="Prophet">Prophet</option>
+	  <option value="Seer">Seer</option>
+	  <option value="Chief_Judge">Chief Judge</option>
+	</select>
+
+	<div id="Angel" class="group">Angel (Protector in Mafia)  - Awakes and every night by the Narrator's prompt they choose a person to protect from death. Can't protect themselves. Angel's power is greater than all killing power.</div>
+	<div id="Apostate" class="group">Apostate - (Wildchild) - Wake up only the first night and decide one person to be their role model. When that person dies they become a Gadianton Robber.</div>
+	<div id="Assassin" class="group">Assassin (Amaron?) - (Hunter) Kill one other person when they are killed.</div>
+	<div id="Nephite_Judge" class="group">Nephite Judge (3 Brothers) - (2 if there is a traitor and 3 if no traitor) - Has to be at least two because of the Traitor unless the traitor is not in the game then only one. See each other and that is all.</div>
+	<div id="Executioner" class="group">Executioner (Witch) - Decides one person to die and one to stay alive during the night. Wakes up by themselves until they have done this. They know who is going to be killed until they have used their saving ability. Can only kill one person and save one person in the entire game.</div>
+	<div id="Gadianton_Leader" class="group">Gadianton Leader  (Father Werewolf) - when the Gadianton Robbers (including the Leader) have decided to kill someone the Gadianton Leader is woken right after by themselves and asked if they want to turn the person into a Gadianton Robber instead. Only get to do this once.</div>
+	<div id="Gadianton_Robber" class="group">Gadianton Robber (Werewolf) - Every night decide on someone to die. At least two every time.</div>
+	<div id="Gadianton_Spy" class="group">Gadianton Spy (Little Girl - bad side) - can peak during the night and are on the gadianton robber's side. Get peak during the Nephite Judges.</div>
+	<div id="Nephite_Spy" class="group">Nephite Spy (Little Girl - good side) - can peak during the night and are on the Nephite's side. She can only peak while the Gadianton Robbers are awake.</div>
+	<div id="Member_Missionary" class="group">Member Missionary (change name and images) - can turn a Gadianton Robber or Leader into a Nephite. They act as a "fox."  They select a person and if they are correct the werewolf they found turns into a Nephite.</div>
+	<div id="Missionary_Leader " class="group">Missionary Leader (Cupid) - Wake up the first night and decide on two missionary companions who will die when the other one dies.</div>
+	<div id="Nephite" class="group">Nephite (Villager)</div>
+	<div id="Traitor" class="group">Traitor - Choose to be a Gadianton Robber or a Nephite judge at the beginning. Wake up for the Werewolfs and the Nephite Judges and can opt at any time to switch from one to the other (but only one time). Have a separate designated time they wake up and are asked if they want to keep their role. Once they have switched they don't wake up individually anymore. Gets to act fully in what ever role they are in.</div>
+	<div id="Prophet" class="group">Prophet - At any time can opt to find out who one of the Gadianton robbers are. It is determined by the Narrator using a rand function provided on their form. They only get to know one Gadianton robber in the entire game.</div>
+	<div id="Seer" class="group">Seer (Seer) - Chooses one person every night to find out what their role is.</div>
+	<div id="Chief_Judge" class="group">Chief Judge (Sheriff) - Their vote always counts twice (not a role) - additional card.</div>
+
+	<script>
+	  $(document).ready(function () {
+	  $('.group').hide();
+	  $('#option1').show();
+	  $('#selectMe').change(function () {
+		$('.group').hide();
+		$('#'+$(this).val()).show();
+		 })
+	  });
+	</script>
+
+
+</body>
+
+
+
+</html>

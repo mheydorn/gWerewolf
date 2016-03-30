@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="characters.js"></script>
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+<body>
+  <button id="getRoles">Get Roles</button>
+  <button id="sleep">Night</button>
+  <table style="width:100%">
+        <tr>
+          <th>Role</td>
+          <th>Name</td>
+          <th>Living Status</td>
+          <th>Action</td>
+        </tr>
+  </table>
+  <div ng-app="">
+        <div ng-repeat="x in characters">
+                {{x}}
+        </div>
+        <p>{{character}}</p>
+  </div>
+
+</body>
+</html>

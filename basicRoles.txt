@@ -1,0 +1,15 @@
+angel - Awakes every night by the narrator's prompt. They choose a person to protect from death. They can not protect themselves. The angel's power is greater than all killing power. It is the same role as the protecter in Werewolves.
+apostate - Wake up only the first night and decide one person to be their role model. When that person dies they become a gadianton robber. It is the same role as the wild child in Werewolves. 
+assassin - Kill one other person of their choosing when they are killed. It is the same role as the Hunter in Werewolves.
+nephiteJudge - Wake up eah night and give each other gestures to communicate who they think is a killer and any other information they want to portray to each other to help win the game. 
+executioner - Decide on one person to die and one to stay alive during the entire game. Wakes up during the night until they have used their killing and saving powers. They know who is going to be killed until they have used their saving ability. Can only kill one person and save one person in the entire game. 
+gadiantonLeader - when the gadianton robbers (including the leader) have decided to kill someone the gadianton leader is woken right after by themselves and asked if they want to turn the person into a gadianton robber instead of killing them. Only get to use their ability once. This role is like the werewolf father in Werewolves.
+gadiantonRobber - Every night they decide on someone to die. They wake up together. This role is the same as the werewolf in Werewolves.  
+gadiantonSpy - They can peak during the night when the cheif judges are awake and are on the gadianton robber's side. They win if the gadianton robbers win. They are reverse of the little girl in Werewolves.
+nephiteSpy - They can peak during the night and are on the nephite's side. They can only peak while the gadianton robbers are awake. This role is the same as the little girl in Werewolves.
+memberMissionary - They can turn a Gadianton Robber or Leader into a Nephite. They act as a fox but when they feel they have narrowed it down they can turn someone the werewolf they found to a nephite. (may be too powerful and may need to drop this role and put the fox somewhere else on the good side).
+missionaryLeader - Wake up the first night and decide on two missionary companions who will die when the other one dies. This roles is the same as cupid in Werewolves.
+nephite - They are the same as the villager in Werewolves. They do not wake up in the night and they can try to determine who is the werewolves with everyone else in the day.
+traitor - Choose to be a Gadianton Robber or a Nephite Judge the first night. Wake up for the Werewolves and the Nephite Judges but stay in their chosen role throughout the game. This roles is similar to the wolf cub in Werewolves.
+prophet - Wake up every night and choose one person. The narrator then shakes their head yes or no if that person or one of the two people next to them is a gadianton robber. This roles is the same as the fox in Werewolves. 
+seer - They choose one person every night to find out what their role is. This role is the same as the fortune teller or seer in Werewolves.

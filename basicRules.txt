@@ -1,0 +1,37 @@
+First Round:
+1. Missionary Leader
+2. Missionaries
+3. Traitor
+
+2nd Night:
+1. The member missionary wakes and chooses someone to convert. 
+They only do this the second night.
+2. Look at All Other Rounds
+
+All Other Rounds:
+1. Seer
+2. Werewolves (includes traitor and Gadianton leader)
+3. Executioner
+4. Prophet
+5. 
+6. Everyone wakes up
+
+Other rules:
+1. Must have 8 a minimum of 8 players.
+2. Can not have more than 20 players.
+
+Number of players and role rules:
+players werewolfs seer	    other players
+8	2	  always 1  5
+9	2		    6
+10	2	            7
+11	2		    8
+12	3		    8
+13	3		    9
+14	3		    10
+15	3		    11
+16	3		    12
+17	3		    13
+18	4		    13
+19	4		    14
+20	4		    15
